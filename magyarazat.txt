@@ -1,0 +1,40 @@
+Magyarázat
+
+    HTML:
+        Létrehoztunk egy egyszerű HTML struktúrát, amely tartalmaz egy navigációs sávot (<nav>) és egy fő tartalmat (<main>) a kártyákkal.
+
+    CSS:
+        A nav elem fixen helyezkedik el a tetején, és egy átmenetet (transition) használunk a megjelenítés elrejtéséhez és visszahozásához.
+        A .card-container flexbox-szal van megoldva, amely lehetővé teszi a kártyák reszponzív elrendezését.
+        A .card elemek reszponzívak, és különböző képernyőméretekhez igazítva változtatják a szélességüket.
+
+    JavaScript:
+        A scroll eseményt figyeljük, hogy érzékeljük, mikor görgetünk le vagy fel.
+        Ha lefelé görgetünk, a navigációs sáv eltűnik (elmozdul felfelé), ha felfelé görgetünk, újra megjelenik.
+
+
+
+
+
+        <!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weboldal példa</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div>
+        <nav id="navbar">
+            <h1><a href="#">Kezdőlap</a></h1>
+            <h1><a href="/shop.html">Termékek</a></h1>
+            <h1><a href="/plus.html">Egyedi ajánlat</a></h1>
+        </nav>
+    </div>
+    <main>
+        <p>faszom</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

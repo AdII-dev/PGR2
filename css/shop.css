@@ -1,0 +1,11 @@
+.shopIMG{
+    width: 100%;
+}
+
+.card{
+    text-decoration: none;
+}
+.card a {
+    text-decoration: none;
+    color: inherit; 
+}

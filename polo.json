@@ -1,0 +1,27 @@
+[
+	{
+		"title": "Blessed",
+		"img": "<img class='shopIMG' src='./img/Blessed/AngelPolo.jpg' alt='Angel póló'>",
+		"link": "/view.html"
+	},
+	{
+		"title": "PGR2",
+		"img": "PGR2/PGR2Polo.png",
+		"link": "/view.html"
+	},
+	{
+		"title": "Renaissance",
+		"img": "Renaissance/Polo.png",
+		"link": "/view.html"
+	},
+	{
+		"title": "Disenchanted",
+		"img": "Disenchanted/DisenchantedPolo.jpg",
+		"link": "/view.html"
+	},
+	{
+		"title": "Luminescent",
+		"img": "Luminescent/LuminescentPolo.jpg",
+		"link": "/view.html"
+	}
+]
