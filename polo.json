@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Blessed",
-		"img": "<img class='shopIMG' src='./img/Blessed/AngelPolo.jpg' alt='Angel póló'>",
+		"img": "Blessed/AngelPolo.jpg",
 		"link": "/view.html"
 	},
 	{
@@ -11,7 +11,7 @@
 	},
 	{
 		"title": "Renaissance",
-		"img": "Renaissance/Polo.png",
+		"img": "Renaissance/RenaissancePolo.png",
 		"link": "/view.html"
 	},
 	{
