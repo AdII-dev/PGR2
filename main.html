@@ -27,11 +27,11 @@
                 </a>
             </div>
     
-            <div class="card" ng-repeat="card in cards">
-                <a href="view.html">
-                    <h1>{{card["title"]}} 
+            <div class="card" >
+                <a href="view.html" ng-repeat="polo in poloes">
+                    <h1>{{polo.title}} 
                     </h1> <br>
-                    {{card["img"]}}
+                    <img src="img/{{polo.img}}" alt="">
                 </a>
             </div>
             
@@ -50,8 +50,8 @@
         let app = angular.module("myApp", []);
         app.controller("myController", function($scope, $http){
             $http.get("polo.json").then(function(response){
-                $scope.polo = response.data;
-                console.log($scope.polo);
+                $scope.poloes = response.data;
+                console.log($scope.poloes);
             });
         });
     </script>
